@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Termo.exe" version="1.0.0.0" publicKeyToken="46b119e78b1e1d2a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Termo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Termo.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Termo.exe" size="47072">
+      <assemblyIdentity name="Termo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4l93bM3/dUaAfhVErh7eqS2vrc8ufpV3ATKaRe7FNU4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Termo.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-4PQP1J0C\Admin" issuerKeyHash="8e08a388a1dafc1127dbc8e6c6815658a1b9942f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VHkLe5B2VzlJtmAFrxZcscX2KmLzyEMkQ82IFwKWV30=</DigestValue></Reference></SignedInfo><SignatureValue>dOB6npyRctwB2e9B69pSGhro5dREWfWSW0fbc6mSiHsHlVef/qNzIWLzb3vvXTD+Ln8qk/yrATBPAHV1YlxgNrS46Anp2yErz0A2RWD9FdUSzcfxdKJLrTges3aYIqfX1wxe5jlGJtFYKuvNHtKRy1z4OHCT2AYzIfdqjKWdJQA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1MtiE5cWjpTREhDwa0LbYFSmvwM64MYvJwp/lbvBDFh6hsxq9NSSmsx8IOkFT+36qE5LzmCIdOpPxGry6BqW293DdO6VBj49yWyepWh9dJyJc9l6PlFgEcCIsccWkKCWOjqibk/yiT5j3h/dP5hHAds3rmPLbN0CA92udL+T1/E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7d5796021788cd432443c8f3622af6c5b15c16af0560b649395776907b0b7954" Description="" Url=""><as:assemblyIdentity name="Termo.exe" version="1.0.0.0" publicKeyToken="46b119e78b1e1d2a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-4PQP1J0C\Admin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AUsFWzkkYEwqSMhc4fK6j/2TXhJYMQBJwteRs4oF0mA=</DigestValue></Reference></SignedInfo><SignatureValue>av6jHBAW0aZhZZdUc/SMZ+GYH1xy/l1r7W42X5XsdMlo/A6c1p3puTty8wDLgfKYmq3mQ3XLcnxbvrHc770WJuIqSMHV3bu/qivN0BU8KX3UZIJwJ9nOkW21+h4rR/cwJLPrSnv1bglVK6pY3PgzpYBckZq2Pl25SxiWUtFbD+c=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1MtiE5cWjpTREhDwa0LbYFSmvwM64MYvJwp/lbvBDFh6hsxq9NSSmsx8IOkFT+36qE5LzmCIdOpPxGry6BqW293DdO6VBj49yWyepWh9dJyJc9l6PlFgEcCIsccWkKCWOjqibk/yiT5j3h/dP5hHAds3rmPLbN0CA92udL+T1/E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQLP4OylE3eKRKVp37tp/zCzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQA0AFAAUQBQADEASgAwAEMAXABBAGQAbQBpAG4wHhcNMjIwNjIxMjA1NzExWhcNMjMwNjIyMDI1NzExWjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQA0AFAAUQBQADEASgAwAEMAXABBAGQAbQBpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANTLYhOXFo6U0RIQ8GtC22BUpr8DOuDGLycKf5W7wQxYeobMavTUkprMfCDpBU/t+qhOS85giHTqT8Rq8ugaltvdw3TulQY+PclsnqVofXSciXPZej5RYBHAiLHHFpCgljo6om5P8ok+Y94f3T+YRwHbN65jy2zdAgPdrnS/k9fxAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAIan3UstmUCGShO0QVLHkDnWOxiME6DyfKVOWZEMbSv7kXadu7akUNxDmY484kUipJKRiwuQjDfBqLbaUddJZSo5UqaMIUzvMNr8G65qORVItGpsuslNeraFMElMOfvxVp/mggpLVba+0zR0UFfaa91q3h0s0/O0nF5pzzzi+CL4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
